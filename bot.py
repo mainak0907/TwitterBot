@@ -1,9 +1,9 @@
 import tweepy
 import time
-consumer_key='3VmSuIqYQJidDJbF2UuJ7nWti'
-consumer_secret='N53DOQgwaOs4Qq1qJLToYyQlOTy5xJZ2BI2cq2tHhHH0eoErNl'
-key='1596936405284188161-I6q2qEW6wSfIKJn6LmaEPL0nwAZbhg'
-secret='x1wVu7wtt2egQA6b7XW2TRVMy9gYvOaoFiFjFx4zF2cDo'
+consumer_key='3VmSuIqJidDJbF2UuJ7nWti'
+consumer_secret='N53DOQgwaOs4Qq1qToYyQlOTy5xJZ2BI2cq2tHhHH0eoErNl'
+key='1596936405284188161-I6q2qEwSfIKJn6LmaEPL0nwAZbhg'
+secret='x1wVu7wtt2egQA6b7X2TRVMy9gYvOaoFiFjFx4zF2cDo'
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(key,secret)
 api=tweepy.API(auth)
